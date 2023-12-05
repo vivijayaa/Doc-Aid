@@ -1,0 +1,190 @@
+.container {
+    width: 80%;
+    height: 600px;
+    vertical-align: center;
+    align-items: center;
+    margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 10%;
+            margin-right: 10%;
+}
+
+#inputText {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 90%;
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+#outputTable {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#symptomInputSection, #symptomQuerySection {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+		* {
+			margin: 0;
+			padding: 0;
+		}
+        body {
+            background-image: url('bckg.jpg');
+            background-size: cover;
+        }
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+			border-bottom: 5px solid #00e07e;
+		}
+
+		.background {
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 50px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		.firstsection {
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 10%;
+            margin-right: 10%;
+            
+            padding: 20px;
+            align-self: center;
+            vertical-align: middle;
+            padding: 15px;
+            border-radius: 9px;
+            color: white;
+			background-image: linear-gradient(to right, #0f8acb, #00acdc, #00c9c0, #00e07e);
+			height: auto;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		.text-big {
+            color: #f2f2f2;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			font-size: 50px;
+		}
+
+		.text-small {
+            color: white;
+			font-size: 25px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 250px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			border-top: 5px solid #00e07e;
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+        

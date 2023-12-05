@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Processing App</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src="apt.jpg" alt = "example">
+				</div>
+				<li><a href="javascript:history.back()">Doc-aid</a></li>
+			<li><a href="chatbot.php">Chat-bot</a></li>
+			<li><a href="javascript:history.back()">Statistics</a></li>
+            <li><a href="javascript:history.back()">About</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<button class="btn btn-sm" onclick="history.back()">Logout</buttton>
+		</div>
+	</nav>
+<section class="firstsection">
+    <h1 class="text-big" id="web">Enter your Symptoms</h1>
+    <div class="container">
+        <textarea id="inputText" placeholder="Enter your text here"></textarea>
+        <button class="btn btn-sm" id="processButton">Process Text</button>
+        <div id="outputTable"></div>
+
+        <!-- Symptom Query Section -->
+        <div id="symptomQuerySection" style="display:none;">
+            <p>Do you have any more symptoms?</p>
+            <button class="btn btn-sm" id="yesMoreSymptoms">Yes</button>
+            <button class="btn btn-sm" id="noMoreSymptoms">No</button>
+        </div>
+
+        <!-- Symptom Input Section (Initially Hidden) -->
+        <div id="symptomInputSection" style="display:none;">
+            <input type="text" id="symptomInput" placeholder="Enter a symptom">
+            <button class="btn btn-sm" id="addSymptom">Add Symptom</button>
+        </div>
+
+        <!-- Display Symptoms -->
+        <div id="symptomsList"></div>
+        <!-- <button class="btn btn-sm" onclick="submitSeverity()">Submit Severity</button> -->
+    </div>
+    </div>
+	</section>
+    <footer class="background">
+		<p class="text-footer">
+			VIT-AP<div class="logo">
+				<img src= "apt.jpg">
+			</div>
+		</p>
+        <img src= "apt.jpg">
+	</footer>
+    <script src="static/script.js"></script>
+</body>
+</html>
